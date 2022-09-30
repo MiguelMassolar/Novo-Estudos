@@ -3,4 +3,4 @@
 
 Aprendendo a gerenciar diretórios e hospedar sites no GitHub!
 
-<a hreff="https://miguelmassolar.github.io/Novo-Estudos/HTML-CSS/Ex001/index.html">Executar o exercício 001.</a>
+<a href="https://miguelmassolar.github.io/Novo-Estudos/HTML-CSS/Ex001/index.html">Executar o exercício 001.</a>
