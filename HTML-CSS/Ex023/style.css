@@ -3,15 +3,46 @@ body {
 }
 
 table {
-    width: 400px;
-    height: 400px;
+    width: 500px;
     border-collapse: collapse;
+    position: relative;
 }
 
-
-td {
+td, th {
     border: 1px solid black;
-    text-align: center;
-    vertical-align: middle;
-    padding: 8px;
+    padding: 10px;
+}
+
+th:nth-child(2) {
+    width: 50px;
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+td:nth-child(2) {
+    text-align: right;
+}
+
+thead, tfoot {
+    background-color: gray;
+    color: white;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: 0;
+    background-color: gray;
+}
+
+tbody > tr:nth-child(odd) {
+    background-color: white;
+}
+
+tbody > tr:nth-child(even) {
+    background-color: lightgray;
 }
